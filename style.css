@@ -190,7 +190,7 @@ body {
   justify-content: center;
 }
 
-.btn {
+.btn,.btn1 {
   font-size: 1.4rem;
   color: #eeeeee;
   transition: background-color 0.3s;
@@ -209,12 +209,23 @@ body {
   box-shadow: 0 0 35px #1565c0;
 }
 
+.btn1:hover {
+  color: white;
+  background-color: #1565c0;
+  transform: scale(1.1);
+  box-shadow: 0 0 35px #1565c0;
+}
+
 @media (max-width:1028px) {
   * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
   }
+  
+  .btn1{
+    display: none;
+  }  
 
   .line {
     border: none;
