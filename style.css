@@ -216,9 +216,8 @@ body {
 
   .line {
     border: none;
-    background-color: #acacac70;
+    background-color: #0288d1;
     height: 1px;
-    /* color: #eeeeee; */
     width: 100%;
     margin: auto;
     box-shadow: 0 0 10px #0288d1;
@@ -227,7 +226,7 @@ body {
   .line2 {
     border: none;
     box-shadow: 0 0 10px #0288d1;
-    background-color: #acacac70;
+    background-color: #0288d1;
     height: 1px;
     /* color: #eeeeee; */
     width: 80%;
